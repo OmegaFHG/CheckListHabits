@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Habits check list</title>
+  </head>
+  <body>
+    <header>
+        
+      <img src="./assets/logo.svg" />
+
+      <button>
+        <img src="./assets/plus.svg" alt="icone 
+        sinal de mais roxo" />
+        <div>
+          Registrar o meu dia
+        </div>
+      </button>
+
+    </header>
+
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="run"><img src="./assets/run-icon.svg" alt="icone de corrida"></div>
+
+        <div class="habit" data-name="water"><img src="./assets/water-icon.svg" alt="icone de garrafa de agua"></div>
+
+        <div class="habit" data-name="food"><img src="./assets/food-icon.svg" alt="icone de alimentação"></div>
+
+        <div class="habit" data-name="study"><img src="./assets/study-icon.svg" alt="icone de estudos"></div>
+
+        <div class="habit" data-name="fun"><img src="./assets/fun-icon.svg" alt="icone de diversao"></div>
+
+        <div class="habit" data-name="sleep"><img src="./assets/sleep-icon.svg" alt="icone de sono"></div>
+
+      </div>
+
+      <div class="days"></div>
+    
+    </form>
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js">
+    </script>
+  </body>
+</html>
